@@ -71,3 +71,7 @@ This is a basic implementation to learn the Statistical Arbitrage Strategy. To i
 -   Experiment with different thresholds.
 
 Run the program, visualize the results, and tweak to deepen your understanding!
+
+## License
+
+[MIT](LICENSE) License
