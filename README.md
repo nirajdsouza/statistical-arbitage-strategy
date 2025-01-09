@@ -78,12 +78,13 @@ updated script: statistical-arbitage-pep-ko.py
 
 This script implements a statistical arbitrage strategy using historical stock data for Coca-Cola (KO) and PepsiCo (PEP). It performs the following steps:
 
-Data Collection: Fetches historical stock prices from Yahoo Finance (2015-2020).
-Cointegration Test: Checks if the assets are cointegrated with a p-value threshold of 0.1.
-Spread Modeling: Calculates the spread between the two stock prices using linear regression.
-Entry/Exit Signals: Generates signals based on spread deviations from the mean.
-Backtesting: Simulates trades and tracks portfolio performance.
-Results: Outputs final portfolio value and plots performance.
+- Data Collection: Fetches historical stock prices from Yahoo Finance (2015-2020).
+- Cointegration Test: Checks if the assets are cointegrated with a p-value threshold of 0.1.
+- Spread Modeling: Calculates the spread between the two stock prices using linear regression.
+- Entry/Exit Signals: Generates signals based on spread deviations from the mean.
+- Backtesting: Simulates trades and tracks portfolio performance.
+- Results: Outputs final portfolio value and plots performance.
+
 Dependencies:
 
 ```bash
